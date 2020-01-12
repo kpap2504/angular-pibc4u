@@ -1,0 +1,16 @@
+<hello name="{{ name }}"></hello>
+<p>
+	Start editing to see some magic happen :)
+</p>
+
+
+<h1>Angular HTTP Basics</h1>
+<button (click)="getPosts()">Get Posts</button>
+<div *ngFor="let post of posts | async">
+	{{post |json}}
+</div>
+
+
+<pre>from
+  https://www.youtube.com/watch?v=_05v0mrNLh0
+</pre>
