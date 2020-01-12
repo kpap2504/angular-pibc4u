@@ -2,7 +2,12 @@
 <p>
 	Start editing to see some magic happen :)
 </p>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a> | 
+  <a routerLink="/heroes">Heroes</a>
+</nav>
 
+<router-outlet></router-outlet>
 
 <h1>Angular HTTP Basics</h1>
 <button (click)="getPosts()">Get Posts</button>
